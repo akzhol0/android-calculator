@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <link rel="manifest" href="assets/favicon/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" href="assets/css/css_main/style_index.css">
+        <link rel="stylesheet" href="assets/css/css_media/media_index.css">
+        <title>Android Calculator</title>
+    </head>
+
+    <body>
+        <section>
+            <div class="result">
+                <div id="res"></div>
+            </div>
+            <div class="buttons-wrapper">
+                <input onclick="ac(); error();" class="col_blue" value="C" type="button">
+                <input onclick="percent(); error();" class="col_blue" value="%" type="button">
+                <input onclick="divide(); error();" class="col_blue bigger" value="÷" type="button">
+                <input class="col_blue" value="⌦" type="button">
+                <input onclick="seven(); error();" value="7" type="button">
+                <input onclick="eight(); error();" value="8" type="button">
+                <input onclick="nine(); error();" value="9" type="button">
+                <input onclick="multiply(); error();" class="col_blue bigger" value="×" type="button">
+                <input onclick="four(); error();" value="4" type="button">
+                <input onclick="five(); error();" value="5" type="button">
+                <input onclick="six(); error();" value="6" type="button">
+                <input onclick="minus(); error();" class="col_blue bigger" value="-" type="button">
+                <input onclick="one(); error();" value="1" type="button">
+                <input onclick="two(); error();" value="2" type="button">
+                <input onclick="three(); error();" value="3" type="button">
+                <input onclick="plus(); error();" class="col_blue bigger" value="+" type="button">
+                <input onclick="add_minus(); error();" class="col_blue" value="+/-" type="button">
+                <input onclick="zero(); error();" value="0" type="button">
+                <input onclick="dot(); error();" class="col_blue bigger" value="." type="button">
+                <input onclick="equals(); error();" class="col_green" value="=" type="button">
+            </div>
+        </section>
+
+        <script src="java_script/index_core.js"></script>
+    </body>
+</html>
